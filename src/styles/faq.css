@@ -1,0 +1,132 @@
+.faq {
+    padding: 176px 0;
+    border-top: 1px solid #D8E3FE;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.6s;
+}
+
+.faq_title1 {
+    margin-bottom: 20px;
+    font-family: Roboto-Medium;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3D4F9F;
+}
+
+
+.faq_title2 {
+    margin-bottom: 68px;
+    font-family: serif;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #3D4F9F;
+}
+
+.faq__dropdown {
+
+}
+
+.faq__dropdown_item {
+    /* height: 45px; */
+    width: 743px;
+    border-bottom: 1px solid #D8E3FE;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+
+
+
+.faq__dropdown_item_ctn-vis {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #8E96B7;
+}
+.faq__dropdown_item_ctn-vis:hover{
+    color: #495274;
+}
+
+.faq__dropdown_item_icon {
+    margin: 0 24px;
+}
+
+
+
+.faq__dropdown_item_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    font-family: Quicksand-Medium;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+
+.faq__dropdown_item_ctn-drop {
+    display: flex;
+    align-items: center;
+    padding: 16px 0 53px 0;
+}
+
+.faq__dropdown_item_description {
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    color: #8D96BD;
+    margin: 0 62px 0 80px;
+}
+
+
+.faq__dropdown_item_button {
+    width: 195px;
+    height: 43px;
+    font-family: Quicksand-Bold;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #7382A3;
+    background: #E8ECF4;
+}
+
+
+/* test */
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }

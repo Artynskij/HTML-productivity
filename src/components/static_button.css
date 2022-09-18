@@ -1,0 +1,24 @@
+.static_button {
+    font-family: Quicksand-Bold;
+    display: flex;
+    justify-content: center;
+    width: 113px;
+    height: 43px;
+
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #D2E1FF;
+    border-radius: 2px;
+    color: #3A79FF;
+    transition:  0.5s ;
+}
+
+.static_button:hover {
+    
+    background: #9bbcff;
+    color: #1b5ce9;
+}

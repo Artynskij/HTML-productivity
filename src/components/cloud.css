@@ -1,0 +1,29 @@
+.cloud {
+    box-shadow: 0px 5px 45px rgba(151, 175, 227, 0.1);
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    position: absolute;
+}
+/* 
+@media (max-width:1100px) {
+    .cloud{
+        display: none;
+    }
+    
+} */
+.cc1 {
+background: #D5E0FB;
+}
+
+.cc2 {
+    background: #E1EAFF;
+}
+.cc3 {
+    background: #ECF1FC;
+}
+.cc4 {
+    background: #EEF3FF;
+}
+.cc5 {
+   background-color: #ffff; 
+   /* background-color: black;  */
+}

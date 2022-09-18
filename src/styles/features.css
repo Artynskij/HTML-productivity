@@ -1,0 +1,131 @@
+.features {
+    border-top: 1px solid #D8E3FE;
+    padding: 171px 0;
+    position: relative;
+}
+
+
+
+.features__first-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto-Medium;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3D4F9F;
+    margin-bottom: 20px;
+}
+
+.features__second-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Quicksand-Medium;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #3D4F9F;
+    margin-bottom: 92px;
+
+}
+
+.features__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features__content_item {
+    font-family: 'Open Sans';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.features__content_bg-icon {
+    width: 69px;
+    height: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F1F5FF;
+    border-radius: 50%;
+    margin-bottom: 33px;
+}
+
+.features__content_icon {}
+
+.features__content_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    color: #4074F8;
+    margin-bottom: 25px;
+}
+
+.features__content_content {
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 19px;
+    text-align: center;
+    color: #ADB3CB;
+}
+
+.features__content_line {
+    width: 28px;
+    height: 1px;
+    background: #DAE4FE;
+    margin: 0 19px 0 20px;
+}
+
+.features__buttons-choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features__buttons_reed {
+    background: #FFD7D7;
+    color: #D43F3F;
+}
+
+.features__buttons_reed:hover {
+    background: #fe9494;
+    color: #c52323;
+}
+
+
+.features__buttons-choice_choice {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 19px;
+    text-align: center;
+    color: #ADB3CB;
+}
+
+.features__buttons-choice_line {
+    width: 15px;
+    height: 1px;
+    background: #DAE4FE;
+    margin: 0 16px;
+}
+
+
+.features__cloud_1 {}
+
+.features__cloud_2 {}
+
+.features__cloud_3 {}
